@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صور مصعد ركاب</title>
+
+<style>
+  body {
+    font-family: "Tajawal", sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 26px;
+  }
+
+  /* ==== معرض منظم ==== */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 18px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: 220px;             /* نفس الطول لكل الصور */
+    object-fit: cover;         /* قص الصورة بشكل نظيف */
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: 0.3s ease;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  }
+
+  .back {
+    display: block;
+    margin: 30px auto 0;
+    width: 160px;
+    text-align: center;
+    padding: 12px;
+    background: #222;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+</style>
+
+</head>
+<body>
+
+<h2>صور مصعد ركاب</h2>
+
+<div class="gallery">
+  <img src="1jpg.jpg">
+  <img src="2.jpg">
+  <img src="3jpg.jpg">
+  <img src="4.jpg">
+  <img src="5.jpg">
+  <img src="6.jpg">
+  <img src="7.jpg">
+  <img src="8.jpg">
+  <img src="9.jpg">
+  <img src="10.jpg" alt="">
+  <img src="11.jpg" alt="">
+  <img src="12..jpg" alt="">
+  <img src="13.jpg" alt="">
+  <img src="15.jpg" alt="">
+  <img src="16.jpg" alt="">
+  <img src="154.jpg" alt="">
+  <img src="52.jpg" alt="">
+  <img src="53.jpg" alt="">
+  <img src="54.jpg" alt="">
+  <img src="WhatsApp Ima.jpg" alt="">
+</div>
+
+<a class="back" href="index.html">رجوع</a>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مصعد شحن – صور وفيديوهات</title>
+
+<style>
+  body {
+    font-family: "Tajawal", sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 26px;
+  }
+
+  /* صور */
+/* === حاوية الصور والفيديوهات === */
+.gallery, .videos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 عناصر في الصف */
+  gap: 20px;                             /* نفس المسافة بين الصور والفيديوهات */
+  justify-items: center;                  /* توسيط كل عنصر داخل العمود */
+  margin-bottom: 40px;
+}
+
+/* === الصور === */
+.gallery img {
+  width: 300px;       /* نفس عرض الفيديو */
+  height: 220px;      /* نفس ارتفاع الفيديو */
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+  transition: 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+/* === الفيديوهات === */
+.videos video {
+  width: 300px;
+  height: 220px;
+  border-radius: 10px;
+  background: #000;
+}
+
+  .back {
+    display: block;
+    margin: 30px auto 0;
+    width: 160px;
+    text-align: center;
+    padding: 12px;
+    background: #222;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+</style>
+
+</head>
+<body>
+
+<h2>مصعد شحن – صور وفيديوهات</h2>
+
+<!-- صور -->
+<div class="gallery">
+  <img src="67.jpg" alt="">
+  <img src="2.jpg" alt="">
+  <img src="3.jpg" alt="">
+  <img src="4.jpg" alt="">
+  <img src="85.jpg" alt="">
+  <img src="6.jpg" alt="">
+  <img src="67.jpg" alt="">
+  <img src="10.jpg" alt="">
+  <img src="11.jpg" alt="">
+  <img src="12..jpg" alt="">
+  <img src="154.jpg" alt="">
+  <img src="16.jpg" alt="">
+  
+</div>
+
+<!-- فيديو -->
+<div class="videos">
+  <video controls>
+    <source src="655.mp4" type="video/mp4">
+  </video>
+
+  <video controls>
+    <source src="545.mp4" type="video/mp4">
+  </video>
+
+  <video controls>
+    <source src="543.mp4" type="video/mp4">
+  </video>
+</div>
+
+<a class="back" href="index.html">رجوع</a>
+
+</body>
+</html>

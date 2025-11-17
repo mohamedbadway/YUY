@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صور  سلام متحركه </title>
+
+<style>
+  body {
+    font-family: "Tajawal", sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 26px;
+  }
+
+  /* ==== معرض منظم ==== */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 18px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: 220px;             /* نفس الطول لكل الصور */
+    object-fit: cover;         /* قص الصورة بشكل نظيف */
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: 0.3s ease;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  }
+
+  .back {
+    display: block;
+    margin: 30px auto 0;
+    width: 160px;
+    text-align: center;
+    padding: 12px;
+    background: #222;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+</style>
+
+</head>
+<body>
+
+<h2>صور  سلالم متحركة</h2>
+
+<div class="gallery">
+  <img src="download (3).webp">
+  <img src="OIP (6).webp">
+  <img src="OIP (7).webp">
+  <img src="OIP (8).webp">
+  <img src="OIP (9).webp">
+  <img src="OIP (10).webp">
+  <img src="OIP (11).webp">
+  <img src="OIP (12).webp">
+  <img src="9.webp">
+  <img src="escalators-outside-building-jakarta-under-600w-2203993879.webp" alt="">
+ 
+ 
+</div>
+
+<a class="back" href="index.html">رجوع</a>
+
+</body>
+</html>
